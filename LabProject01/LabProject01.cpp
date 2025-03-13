@@ -27,7 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
-    // TODO: 여기에 코드를 입력합니다.
+    // TODO: 여기에 코드를 입력합니다.sw
     HACCEL hAccelTable;
     MSG msg;
 
@@ -106,6 +106,8 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
 //
 BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
+    //ghAppInstance = hInstance;
+
     RECT rc = { 0, 0, FRAME_BUFFER_WIDTH, FRAME_BUFFER_HEIGHT };
     DWORD dwStyle = WS_OVERLAPPED | WS_CAPTION | WS_MINIMIZEBOX | WS_SYSMENU | WS_BORDER;
     AdjustWindowRect(&rc, dwStyle, FALSE);
@@ -115,6 +117,11 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
     gGameFramework.OnCreate(hInstance, hMainWnd);
     ::ShowWindow(hMainWnd, nCmdShow);
     ::UpdateWindow(hMainWnd);
+
+#ifdef _WITH_SWAPCHAIN_FULLSCREEN_STATE
+    gGameFramework.ChangeSwapChainState();
+#endif
+
     return(TRUE);
 }
 
