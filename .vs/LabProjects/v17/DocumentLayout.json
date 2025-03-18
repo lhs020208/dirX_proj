@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|solutionrelative:LabProject01\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|solutionrelative:LabProject01\\Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\GameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|solutionrelative:LabProject01\\GameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\LabProject01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|solutionrelative:LabProject01\\GameFramework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\GameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|solutionrelative:LabProject01\\GameFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|solutionrelative:LabProject01\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4DAA53D1-C73F-47BE-A50B-6ED3DC8D8DB2}|LabProject01\\LabProject01.vcxproj|solutionrelative:LabProject01\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,45 +39,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Timer.cpp",
+              "DocumentMoniker": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\Timer.cpp",
+              "RelativeDocumentMoniker": "LabProject01\\Timer.cpp",
+              "ToolTip": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\Timer.cpp",
+              "RelativeToolTip": "LabProject01\\Timer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T14:10:46.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Timer.h",
+              "DocumentMoniker": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\Timer.h",
+              "RelativeDocumentMoniker": "LabProject01\\Timer.h",
+              "ToolTip": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\Timer.h",
+              "RelativeToolTip": "LabProject01\\Timer.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T14:09:06.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "stdafx.h",
               "DocumentMoniker": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\stdafx.h",
               "RelativeDocumentMoniker": "LabProject01\\stdafx.h",
               "ToolTip": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\stdafx.h",
               "RelativeToolTip": "LabProject01\\stdafx.h",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-13T13:45:06.199Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GameFramework.cpp",
               "DocumentMoniker": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\GameFramework.cpp",
               "RelativeDocumentMoniker": "LabProject01\\GameFramework.cpp",
               "ToolTip": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\GameFramework.cpp",
               "RelativeToolTip": "LabProject01\\GameFramework.cpp",
-              "ViewState": "AQIAAK4BAAAAAAAAAAAYwLwBAAA3AAAA",
+              "ViewState": "AQIAAJMBAAAAAAAAAAAhwKoBAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-13T13:37:17.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameFramework.h",
               "DocumentMoniker": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\GameFramework.h",
               "RelativeDocumentMoniker": "LabProject01\\GameFramework.h",
               "ToolTip": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\GameFramework.h",
               "RelativeToolTip": "LabProject01\\GameFramework.h",
-              "ViewState": "AQIAABwAAAAAAAAAAAAowCsAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-13T13:36:51.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LabProject01.cpp",
               "DocumentMoniker": "C:\\Users\\lpet2\\OneDrive\\\uBB38\uC11C\\GitHub\\dirX_proj\\LabProject01\\LabProject01.cpp",
               "RelativeDocumentMoniker": "LabProject01\\LabProject01.cpp",

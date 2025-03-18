@@ -22,6 +22,7 @@ CGameFramework::CGameFramework()
 	m_nFenceValue = 0;
 	m_nWndClientWidth = FRAME_BUFFER_WIDTH;
 	m_nWndClientHeight = FRAME_BUFFER_HEIGHT;
+	_tcscpy_s(m_pszFrameRate, _T("LapProject ("));
 }
 CGameFramework::~CGameFramework()
 {
@@ -354,6 +355,8 @@ void CGameFramework::WaitForGpuComplete()
 }
 void CGameFramework::FrameAdvance()
 {
+	m_GameTimer.Tick(0.0f);
+
 	ProcessInput();
 	AnimateObjects();
 	HRESULT hResult = m_pd3dCommandAllocator->Reset();
@@ -419,6 +422,10 @@ void CGameFramework::FrameAdvance()
 	//프리젠트를 하면 현재 렌더 타겟(후면버퍼)의 내용이 전면버퍼로 옮겨지고
 	//렌더 타겟 인덱스가 바뀔 것이다.
 	m_nSwapChainBufferIndex = m_pdxgiSwapChain->GetCurrentBackBufferIndex();
+
+	m_pdxgiSwapChain->Present(0, 0);
+	m_GameTimer.GetFrameRate(m_pszFrameRate + 12, 37);
+	::SetWindowText(m_hWnd, m_pszFrameRate);
 }
 
 void CGameFramework::ChangeSwapChainState()
