@@ -1,7 +1,5 @@
 #pragma once
-#include <Windows.h>
-#include <math.h>
-#include <tchar.h>
+#include "stdafx.h"
 
 const ULONG MAX_SAMPLE_COUNT = 50; // 50회의 프레임 처리시간을 누적하여 평균한다
 

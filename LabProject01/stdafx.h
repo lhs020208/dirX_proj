@@ -25,6 +25,9 @@
 #include <DirectXColors.h>
 #include <DirectXCollision.h>
 #include <DXGIDebug.h>
+
+#include <mmsystem.h>
+
 using namespace DirectX;
 using namespace DirectX::PackedVector;
 using Microsoft::WRL::ComPtr;
@@ -33,6 +36,7 @@ using Microsoft::WRL::ComPtr;
 #pragma comment(lib, "d3d12.lib")
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "dxguid.lib")
+#pragma comment(lib, "winmm.lib")
 
 #define FRAME_BUFFER_WIDTH 800
 #define FRAME_BUFFER_HEIGHT 600

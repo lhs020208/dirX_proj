@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="GameFramework.h" />
+    <ClInclude Include="Scene.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="LabProject01.h" />
     <ClInclude Include="Resource.h" />
@@ -137,6 +138,7 @@
   <ItemGroup>
     <ClCompile Include="GameFramework.cpp" />
     <ClCompile Include="LabProject01.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
@@ -146,6 +148,12 @@
   <ItemGroup>
     <Image Include="LabProject01.ico" />
     <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </None>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

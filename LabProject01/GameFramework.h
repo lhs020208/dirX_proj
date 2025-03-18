@@ -1,5 +1,6 @@
 #pragma once
 #include "Timer.h"
+#include "Scene.h"
 
 class CGameFramework
 {
@@ -46,6 +47,8 @@ private:
 	ID3D12Resource* m_ppd3dSwapChainBackBuffers[m_nSwapChainBuffers];
 	CGameTimer m_GameTimer;
 	_TCHAR m_pszFrameRate[50];
+	UINT64 m_nFenceValues[m_nSwapChainBuffers];
+	CScene* m_pScene;
 public:
 	CGameFramework();
 	~CGameFramework();
@@ -77,4 +80,5 @@ public:
 		LPARAM lParam);
 	//윈도우의 메시지(키보드, 마우스 입력)를 처리하는 함수이다.
 	void ChangeSwapChainState();
+	void MoveToNextFrame();
 };
